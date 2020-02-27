@@ -5,3 +5,39 @@ html {
 *, *:after, *:before {
     box-sizing: inherit;
 }
+body {
+    background-color: #00bf6f;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+}
+.header__title {
+    text-align: center;
+    color: #00bf6f;
+    font-weight: bold;
+}
+.header__caption {
+    text-align: center;
+   
+}
+.form {
+    padding-left: 16px;
+    
+}
+.footer{
+    padding-top: 16px;
+    text-align: center;
+    color:#00bf6f;
+    font-size: 10px;
+    font-weight: bold;
+}
