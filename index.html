@@ -18,24 +18,24 @@
         <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
             <p>
                 <label for="name">Name:<br></label>
-                <input type="text" name="user-name" id="name" required placeholder="Enter your name" minlength="3">
+                <input type="text" name="user-name" id="name" required placeholder="Enter your name" minlength="3" class="form__input">
             </p>
             <p>
                 <label for="surname">Surname:<br></label>
                 <input type="text" id="surname" name="user-surname" required placeholder="Enter your surname"
-                    minlength="3">
+                    minlength="3" class="form__input">
             </p>
             <p>
                 <label for="age">Age (optional)<br></label>
-                <input type="number" id="age" name="user-age" placeholder="age">
+                <input type="number" id="age" name="user-age" placeholder="age" class="form__input">
             </p>
             <p>
                 <label for="email">Email:<br></label>
-                <input type="email" id="email" name="user-email" required placeholder="Enter your email">
+                <input type="email" id="email" name="user-email" required placeholder="Enter your email" class="form__input">
             </p>
             <p>
-                <label for="role">Which option best describes your current role?<br></label>
-                <select name="role" id="role">
+                <label for="role">Which option best describes your current role?<br></label >
+                <select name="role" id="role" class="form__input">
                     <option value="">Select current role</option>
                     <option value="student">Student</option>
                     <option value="job">Full-time job</option>
@@ -77,9 +77,9 @@
             </p>
             <p>
                 <label for="text-area">Any comments or suggestions?<br></label>
-                <textarea id="test-area" name="user-opinion"></textarea>
+                <textarea id="test-area" name="user-opinion" rows="5" cols="25" class="text-area form__input"></textarea>
             </p>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"class="form__submit">
         </form>
         <footer class="footer">Created by J.Solis</footer>
     </main>

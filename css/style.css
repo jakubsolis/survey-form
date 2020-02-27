@@ -18,7 +18,7 @@ body {
     width: 100%;
     max-width: 640px;
     background-color: white;
-    padding: 16px;
+    padding: 32px;
     border-radius: 16px;
 }
 .header__title {
@@ -31,7 +31,7 @@ body {
    
 }
 .form {
-    padding-left: 16px;
+   
     
 }
 .footer{
@@ -40,4 +40,20 @@ body {
     color:#00bf6f;
     font-size: 10px;
     font-weight: bold;
+}
+.text-area {
+    resize: none;
+}
+.form__submit{
+    background: #00bf6f;
+    color: white;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 6px 0 6px 0;
+    border-radius: 0.25rem;
+}
+.form__input{
+    border-radius: 0.25rem;
 }
