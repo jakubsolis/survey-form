@@ -12,9 +12,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    
 }
 .main {
+
     width: 100%;
     max-width: 640px;
     background-color: white;
@@ -26,13 +27,15 @@ body {
     text-align: center;
     color: #00bf6f;
     font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    
 }
 .header__caption {
     text-align: center;
    
 }
 .form {
-   
+   font-family: 'Source Code Pro', monospace;
     
 }
 .footer{
@@ -41,6 +44,7 @@ body {
     color:#00bf6f;
     font-size: 10px;
     font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
 }
 .text-area {
     resize: none;
@@ -54,6 +58,7 @@ body {
     cursor: pointer;
     padding: 6px 0 6px 0;
     border-radius: 0.25rem;
+    font-family: 'Permanent Marker', cursive;
 }
 .form__input{
     border-radius: 0.25rem;
